@@ -24,9 +24,9 @@ Go ahead and head to that url in your browser to view the data.
 Familiarize yourself with the attributes for each pup. Try going to `/pups/:id` to see an individual pup as well.
 
 ### STEP 2: ADD PUPS TO DOG BAR
-On the page, there is a `div` with the id of `"dog-bar"`. On page load, make a fetch
+<!-- On the page, there is a `div` with the id of `"dog-bar"`. On page load, make a fetch
 to get all of the pup objects. When you have this information, you'll need to add
-a `span` with the pup's name to the dog bar (ex: `<span>Mr. Bonkers</span>`).
+a `span` with the pup's name to the dog bar (ex: `<span>Mr. Bonkers</span>`). -->
 
 ### STEP 3: SHOW MORE INFO ABOUT EACH PUP
 When a user clicks on a pup's `span` in the dog bar, that pup's info (`image`, `name`, and `isGoodDog` status) should show up in the `div` with the id of `"dog-info"`.
