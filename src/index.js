@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const filterDiv = document.querySelector('#filter-div')
   const filterBtn = document.querySelector('#good-dog-filter')
   dogInfoDiv = document.querySelector('#dog-info')
   dogBarDiv = document.querySelector('#dog-bar')
