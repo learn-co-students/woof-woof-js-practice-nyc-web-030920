@@ -30,7 +30,16 @@ function toggleDogBar(target) {
   //pattern matches for 'ON' in button inner text
   if (target.innerText.match(/ON/)) {
     buttons.forEach(button => {
-      if (button.innerText === 'Bad Dog!') { //if true will hide all span 
+      if (button.innerText === 'Bad Dog!') { //if true will hide all span
+
+        //if dog HTML with button value of 'Bad Dog!' is showing (upon span click event) and filter button is clicked, will hide dog HTML 
+        let h2 = button.previousSibling
+        let img = h2.previousSibling
+  
+        h2.style.display = 'none'
+        button.style.display = 'none'
+        img.style.display = 'none'
+
         spans.forEach(span => {
           if (span.innerText === button.previousSibling.innerText) {
             span.style.display = 'none'
